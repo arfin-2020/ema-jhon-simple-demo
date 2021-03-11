@@ -53,8 +53,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                {/* <h1>This is a cart</h1>
-                <h2>Order Cart : {cart.length}</h2> */}
+
                 <Cart cart={cart}>
                     <Link to="/review">
                         <button className="add-btn"> Order Review</button>
